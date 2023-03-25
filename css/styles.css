@@ -1,0 +1,173 @@
+:root {
+  --primary-color: #ffffff;
+  --secondary-color: #9da4bd;
+  --tretiary-color: #303030;
+  --active-color: #ff6c00;
+  --text-color: #555555;
+  --color-alfa: rgba(157, 164, 189, 0.6);
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+}
+
+address {
+  font-style: normal;
+}
+
+button {
+  cursor: pointer;
+  display: block;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+  border: 1px solid red;
+}
+
+/* ====================HEADER==================== */
+
+.logo {
+  padding-top: 32px;
+}
+
+.header-section {
+  background-color: teal;
+}
+
+.header-section > .container {
+  display: flex;
+}
+
+.nav {
+  display: flex;
+}
+.logo {
+  margin-right: 131px;
+}
+
+.nav-list {
+  display: flex;
+  gap: 30px;
+  padding-top: 52px;
+  padding-bottom: 52px;
+}
+
+.nav-link {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--active-color);
+}
+
+.nav-tel {
+  margin-left: auto;
+  margin-right: 43px;
+  padding-top: 52px;
+  padding-bottom: 52px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+}
+.nav-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  width: 160px;
+  height: 40px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: #ffffff;
+  border: 1px solid var(--active-color);
+  border-radius: 25px;
+  background-color: var(--tretiary-color);
+}
+
+/* ====================HERO==================== */
+
+.socio-list {
+  display: flex;
+  gap: 40px;
+}
+
+.socio-list a {
+  margin-right: 158px;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.2em;
+  color: #303030;
+}
+
+.hero-section {
+  display: flex;
+}
+
+.hero-top-text {
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  text-transform: uppercase;
+  color: var(--color-alfa);
+}
+
+.hero-title {
+  margin-bottom: 20px;
+  font-size: 72px;
+  line-height: 1.18;
+  letter-spacing: 0.05em;
+  color: var(--primary-color);
+}
+.hero-bottom-text {
+  width: 360px;
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: var(--secondary-color);
+}
