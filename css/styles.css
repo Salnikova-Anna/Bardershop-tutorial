@@ -108,8 +108,8 @@ body {
 
 /* ==========================HEADER========================= */
 .header-section {
+  position: absolute;
   padding-top: 40px;
-  background-color: gray;
 }
 
 .header-thumb {
@@ -226,4 +226,49 @@ body {
   .navigation {
     gap: 0 107px;
   }
+}
+
+/* ==========================HERO========================= */
+.hero {
+}
+.hero-section {
+  padding-top: 208px;
+  padding-bottom: 209px;
+  background-image: url("../images/hero-sec/mob-img.jpg");
+}
+
+.hero-soc-list {
+  display: none;
+}
+
+.hero-up-text {
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(157, 164, 189, 0.6);
+}
+
+.hero-title {
+  margin-bottom: 20px;
+  font-family: var(--title-font);
+  font-size: 48px;
+  line-height: 1.17;
+  letter-spacing: 0.05em;
+  color: var(--white-color);
+}
+
+.hero-down-text {
+  max-width: 321px;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.02em;
+  color: #9da4bd;
+}
+
+.hero-soc-item {
+}
+.hero-soc-link {
 }
